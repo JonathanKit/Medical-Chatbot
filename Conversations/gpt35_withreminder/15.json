@@ -1,0 +1,22 @@
+[
+    {
+        "input": "my wound is healing poorly",
+        "output": "I'm sorry to hear that your wound is healing poorly. Can you please describe how the wound looks?"
+    },
+    {
+        "input": "what do you mean?",
+        "output": "You are tracking a symptom. I will ask you questions about your symptom and based on your answers I am creating a summary. To save the summary to your record, which will be seen by your doctor, you need to text me CONFIRM in capital letters. You can text me CONFIRM at any moment while I am asking you questions about your symptom. To cancel and dismiss the conversation text me with CANCEL.\n\ncurrent summary:  The patient reports that their wound is healing poorly and is asked to describe its appearance.\n\nI apologize for any confusion. Can you tell me if there is any redness, swelling, discharge, or unusual odor coming from the wound?"
+    },
+    {
+        "input": "it is a little red around the wound",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient reports that their wound is healing poorly and there is some redness around the wound.\n\nThank you for sharing that the area around the wound is a little red. Is the redness spreading or getting worse over time?"
+    },
+    {
+        "input": "no staying the same",
+        "output": "current summary:  The patient reports that their wound is healing poorly and there is redness around the wound, but it is not spreading or getting worse over time.\n\nThank you for letting me know that the redness around the wound is staying the same. Have you noticed any other changes or symptoms in the area?"
+    },
+    {
+        "input": "no",
+        "output": "current summary:  The patient reports that their wound is healing poorly and there is redness around the wound that is staying the same. No other changes or symptoms have been noticed.\n\nThank you for providing that information. It's helpful to know that there are no other changes or symptoms in the area. If you have any other concerns or details you'd like to share about the wound, please feel free to let me know."
+    }
+]

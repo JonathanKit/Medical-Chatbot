@@ -1,0 +1,22 @@
+[
+    {
+        "input": "i gained weight",
+        "output": "I see, thank you for sharing that. Can you tell me more about when you started noticing the weight gain and if there have been any changes in your diet or lifestyle recently?"
+    },
+    {
+        "input": "I started noticing today. There were no changes in lifestyle",
+        "output": "You are tracking a symptom. I will ask you questions about your symptom and based on your answers I am creating a summary. To save the summary to your record, which will be seen by your doctor, you need to text me CONFIRM in capital letters. You can text me CONFIRM at any moment while I am asking you questions about your symptom. To cancel and dismiss the conversation text me with CANCEL.\n\ncurrent summary:  The patient reports recent weight gain with no changes in lifestyle.\n\nI understand, sudden weight gain can be concerning. Have you experienced any other symptoms along with the weight gain, such as increased appetite, changes in energy levels, or any changes in your mood?"
+    },
+    {
+        "input": "no",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient reports sudden weight gain noticed today with no changes in lifestyle. No other symptoms reported.\n\nThank you for sharing that. Have you been feeling any bloating or swelling in your abdomen or extremities recently?"
+    },
+    {
+        "input": "no",
+        "output": "current summary:  The patient has recently noticed weight gain with no changes in their diet or lifestyle. They have not experienced any other symptoms such as increased appetite, changes in energy levels, or changes in mood. There is no bloating or swelling in their abdomen or extremities.\n\nThank you for clarifying that. Have you noticed any changes in your sleep patterns or any new stressors in your life that could potentially contribute to the weight gain?"
+    },
+    {
+        "input": "no",
+        "output": "current summary:  The patient has recently noticed weight gain with no changes in diet or lifestyle. They have not experienced any other symptoms such as increased appetite, changes in energy levels, or changes in mood. There is no bloating or swelling in the abdomen or extremities. There have been no changes in sleep patterns or new stressors in their life.\n\nThank you for providing that information. Have you been experiencing any other unusual symptoms or changes in your body that you would like to share?"
+    }
+]

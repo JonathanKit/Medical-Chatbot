@@ -1,0 +1,18 @@
+[
+    {
+        "input": "I have difficulties sleeping",
+        "output": "I'm sorry to hear that you're having difficulties sleeping. Can you tell me more about your sleep patterns?"
+    },
+    {
+        "input": "I wake up all the time at night",
+        "output": "You are tracking a symptom. I will ask you questions about your symptom and based on your answers I am creating a summary. To save the summary to your record, which will be seen by your doctor, you need to text me CONFIRM in capital letters. You can text me CONFIRM at any moment while I am asking you questions about your symptom. To cancel and dismiss the conversation text me with CANCEL.\n\ncurrent summary:  The patient reports difficulties sleeping and waking up frequently at night.\n\nI understand that you wake up frequently at night. How long have you been experiencing this issue with your sleep?"
+    },
+    {
+        "input": "since 2 weeks",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient reports difficulties sleeping and waking up frequently at night for the past 2 weeks.\n\nThank you for sharing that you have been waking up frequently at night for the past two weeks. Have you noticed any specific patterns or triggers that might be causing you to wake up during the night?"
+    },
+    {
+        "input": "no",
+        "output": "current summary:  The patient has been experiencing difficulties sleeping for the past two weeks and wakes up frequently at night without any specific patterns or triggers.\n\nUnderstood! If you have any other symptoms or details you'd like to share about your sleep difficulties, please feel free to let me know."
+    }
+]

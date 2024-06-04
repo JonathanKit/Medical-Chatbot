@@ -1,0 +1,26 @@
+[
+    {
+        "input": "I have chest pain",
+        "output": "I'm sorry to hear that you're experiencing chest pain. When did the chest pain start?"
+    },
+    {
+        "input": "yesterday",
+        "output": "You are tracking a symptom. I will ask you questions about your symptom and based on your answers I am creating a summary. To save the summary to your record, which will be seen by your doctor, you need to text me CONFIRM in capital letters. You can text me CONFIRM at any moment while I am asking you questions about your symptom. To cancel and dismiss the conversation text me with CANCEL.\n\ncurrent summary:  The patient is experiencing chest pain that started yesterday.\n\nI see, thank you for sharing that. Can you describe the type of chest pain you are feeling? Is it sharp, dull, burning, or pressure-like?"
+    },
+    {
+        "input": "it is sharp",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient is experiencing sharp chest pain that started yesterday.\n\nThank you for sharing that detail. Does the sharp chest pain occur with any specific activities or movements, or is it constant?"
+    },
+    {
+        "input": "deep inhale increses the apin",
+        "output": "current summary:  The patient is experiencing sharp chest pain that started yesterday and is worsened by deep inhalation.\n\nI am currently experiencing technical difficulties. Please try again later."
+    },
+    {
+        "input": "a deep inhale increases my chest pain",
+        "output": "current summary:  The patient is experiencing sharp chest pain that started yesterday and is worsened by deep inhalation.\n\nThank you for sharing that information. Have you experienced any shortness of breath along with the chest pain, especially when taking a deep breath?"
+    },
+    {
+        "input": "yes",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient has been experiencing sharp chest pain since yesterday, which is worsened by taking deep breaths. They have also reported experiencing shortness of breath along with the chest pain.\n\nI appreciate you sharing that detail. Have you noticed any other symptoms along with the chest pain and shortness of breath, such as dizziness, nausea, sweating, or palpitations (rapid or irregular heartbeat)?"
+    }
+]

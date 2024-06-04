@@ -1,0 +1,38 @@
+[
+    {
+        "input": "i have a headache",
+        "output": "I'm sorry to hear that you're not feeling well. Can you tell me more about your headache? For example, is it a sharp pain or more of a dull ache?"
+    },
+    {
+        "input": "the headache is dull",
+        "output": "You are tracking a symptom. I will ask you questions about your symptom and based on your answers I am creating a summary. To save the summary to your record, which will be seen by your doctor, you need to text me CONFIRM in capital letters. You can text me CONFIRM at any moment while I am asking you questions about your symptom. To cancel and dismiss the conversation text me with CANCEL.\n\ncurrent summary:  The patient is experiencing a dull headache.\n\nI see, thank you for sharing. Can you tell me where exactly the headache is located? Is it on one side of your head, both sides, or perhaps in the forehead or back of the head?"
+    },
+    {
+        "input": "it is on the forehead",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient is experiencing a dull headache located on the forehead.\n\nI understand. How long have you been experiencing this headache on your forehead?"
+    },
+    {
+        "input": "since yesterday",
+        "output": "current summary:  The patient is experiencing a dull headache located on their forehead since yesterday.\n\nI see. Have you noticed any other symptoms along with your headache, such as fever, nausea, or sensitivity to light or sound?"
+    },
+    {
+        "input": "no",
+        "output": "current summary:  The patient has been experiencing a dull headache on their forehead since yesterday. They have not noticed any other accompanying symptoms such as fever, nausea, or sensitivity to light or sound.\n\nUnderstood. Have you taken any medication for your headache since it started?"
+    },
+    {
+        "input": "no",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient has been experiencing a dull headache on their forehead since yesterday. They have not noticed any other symptoms and have not taken any medication for the headache.\n\nI see. Have there been any recent changes in your lifestyle such as diet, sleep, or stress levels that might have contributed to your headache?"
+    },
+    {
+        "input": "no",
+        "output": "current summary:  The patient has been experiencing a dull headache on their forehead since yesterday. They have not noticed any other symptoms and have not taken any medication. There have been no recent changes in their lifestyle that may have contributed to the headache.\n\nUnderstood. Have you experienced headaches like this before, or is this a new occurrence for you?"
+    },
+    {
+        "input": "it is new",
+        "output": "current summary:  The patient has been experiencing a dull headache on their forehead since yesterday. They have not noticed any other symptoms and have not taken any medication. There have been no recent changes in their lifestyle that could have contributed to the headache. This is a new occurrence for the patient.\n\nI see, thank you for letting me know. Does the headache get worse when you move around or change positions?"
+    },
+    {
+        "input": "no",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient is experiencing a dull headache on their forehead since yesterday. They have not noticed any other symptoms and have not taken any medication. There have been no recent changes in their lifestyle that could have contributed to the headache. This is a new occurrence for the patient and the headache does not worsen with movement.\n\nUnderstood. Is there anything that you've noticed that seems to improve the headache or make it feel better?"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "input": "I am feeling so sleepy",
+        "output": "How long have you been feeling sleepy?"
+    },
+    {
+        "input": "since a week",
+        "output": "You are tracking a symptom. I will ask you questions about your symptom and based on your answers I am creating a summary. To save the summary to your record, which will be seen by your doctor, you need to text me CONFIRM in capital letters. You can text me CONFIRM at any moment while I am asking you questions about your symptom. To cancel and dismiss the conversation text me with CANCEL.\n\ncurrent summary:  The patient has been experiencing sleepiness for one week.\n\nHave you experienced any changes in your sleep patterns or daily routine that could be contributing to your increased sleepiness?"
+    },
+    {
+        "input": "no",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient has been feeling sleepy for the past week without any changes in their sleep patterns or daily routine.\n\nUnderstood! Is there anything else you have noticed that might be related to your increased sleepiness, such as changes in your mood or energy levels?"
+    },
+    {
+        "input": "I have less energy ",
+        "output": "current summary:  The patient has been feeling sleepy for a week without any changes in sleep patterns or daily routine. They have also noticed a decrease in energy levels.\n\nThank you for sharing that. Have you noticed any other symptoms along with feeling sleepy and having less energy, such as changes in appetite or difficulty concentrating?"
+    },
+    {
+        "input": "no",
+        "output": "current summary:  The patient has been feeling sleepy for a week and has noticed a decrease in energy levels. They have not experienced any changes in sleep patterns, daily routine, mood, or appetite. They also have not mentioned any difficulty concentrating.\n\nGot it! Thank you for sharing that information. If you have any other symptoms or concerns, feel free to let me know."
+    }
+]

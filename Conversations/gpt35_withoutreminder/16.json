@@ -1,0 +1,38 @@
+[
+    {
+        "input": "I have increases thirst and urination",
+        "output": "How long have you been experiencing increased thirst and urination?"
+    },
+    {
+        "input": "since a week",
+        "output": "You are tracking a symptom. I will ask you questions about your symptom and based on your answers I am creating a summary. To save the summary to your record, which will be seen by your doctor, you need to text me CONFIRM in capital letters. You can text me CONFIRM at any moment while I am asking you questions about your symptom. To cancel and dismiss the conversation text me with CANCEL.\n\ncurrent summary:  The patient has been experiencing increased thirst and urination for one week.\n\nHave you noticed any other symptoms along with increased thirst and urination, such as weight loss or fatigue?"
+    },
+    {
+        "input": "no",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient has been experiencing increased thirst and urination for one week, without any other accompanying symptoms such as weight loss or fatigue.\n\nHave you made any changes to your diet or lifestyle recently that could be contributing to increased thirst and urination?"
+    },
+    {
+        "input": "no",
+        "output": "current summary:  The patient has been experiencing increased thirst and urination for one week and has not noticed any other symptoms or made any recent changes to their diet or lifestyle.\n\nDo you have any family history of diabetes or other medical conditions that could be related to increased thirst and urination?"
+    },
+    {
+        "input": "yes, my dad has diabetes",
+        "output": "current summary:  The patient has been experiencing increased thirst and urination for one week. They have not noticed any other symptoms or made any recent changes to their diet or lifestyle. There is a family history of diabetes.\n\nThank you for sharing that. It's important to consider family history when evaluating symptoms. Have you ever been tested for diabetes yourself?"
+    },
+    {
+        "input": "no",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient has been experiencing increased thirst and urination for one week. They have not noticed any other symptoms, made any recent changes to their diet or lifestyle, and have a family history of diabetes. They have not been tested for diabetes themselves.\n\nIt might be a good idea to consult with a healthcare provider to discuss your symptoms, especially considering your family history of diabetes. They can provide further evaluation and guidance. Would you like assistance in finding a healthcare provider to schedule an appointment?"
+    },
+    {
+        "input": "yes",
+        "output": "current summary:  The patient has been experiencing increased thirst and urination for a week. They have not noticed any other symptoms or made any recent changes to their diet or lifestyle. The patient's father has diabetes and they have not been tested for it themselves. They are interested in finding a healthcare provider for further evaluation.\n\nI recommend reaching out to your primary care physician or a local clinic to schedule an appointment for further evaluation. If you need help finding a healthcare provider, I can assist you with that. Would you like me to help you find a healthcare provider in your area?"
+    },
+    {
+        "input": "yes",
+        "output": "current summary:  The patient has been experiencing increased thirst and urination for a week. They have not noticed any other symptoms or made any recent changes to their diet or lifestyle. The patient's father has diabetes and they have not been tested for it themselves. They would like assistance in finding a healthcare provider for further evaluation.\n\nGreat! To assist you in finding a healthcare provider in your area, could you please provide me with your zip code or location?"
+    },
+    {
+        "input": "my location is Karlsruhe",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient has been experiencing increased thirst and urination for a week, with no other accompanying symptoms. They have not made any recent changes to their diet or lifestyle and have a family history of diabetes. They have not been tested for diabetes themselves and would like assistance in finding a healthcare provider for further evaluation. Their location is Karlsruhe.\n\nThank you for providing your location as Karlsruhe. I recommend searching online for healthcare providers in Karlsruhe or using a healthcare provider directory to find a suitable clinic or physician near you. If you need further assistance or have any other questions, feel free to ask."
+    }
+]

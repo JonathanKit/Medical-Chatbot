@@ -1,0 +1,30 @@
+[
+    {
+        "input": "I am sleepy",
+        "output": "It's important to get enough rest. How can I support you today?"
+    },
+    {
+        "input": "i feel more sleepy than usual",
+        "output": "I understand. Have you been experiencing any changes in your sleep patterns or feeling more tired than usual during the day?"
+    },
+    {
+        "input": "I am more tired throughout the day, even i sleep as usual",
+        "output": "You are tracking a symptom. I will ask you questions about your symptom and based on your answers I am creating a summary. To save the summary to your record, which will be seen by your doctor, you need to text me CONFIRM in capital letters. You can text me CONFIRM at any moment while I am asking you questions about your symptom. To cancel and dismiss the conversation text me with CANCEL.\n\ncurrent summary:  The patient reports feeling more tired than usual throughout the day, despite sleeping as usual.\n\nI see. Have you noticed any other symptoms along with feeling more tired throughout the day, such as difficulty concentrating, changes in appetite, or mood changes?"
+    },
+    {
+        "input": "i have problems concentrating",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient reports feeling more sleepy than usual and experiencing increased tiredness throughout the day. They also mention difficulty concentrating.\n\nI'm sorry to hear that. How long have you been experiencing difficulty concentrating, and has it been affecting your daily activities or work?"
+    },
+    {
+        "input": "my working capability suffers",
+        "output": "current summary:  The patient is experiencing increased sleepiness and tiredness throughout the day, along with difficulty concentrating and a decrease in working capability. These symptoms have been ongoing and may be affecting daily activities.\n\nI'm sorry to hear that. Have you been under increased stress or experiencing any significant changes in your life recently that could be contributing to your difficulty concentrating and feeling more tired than usual?"
+    },
+    {
+        "input": "no",
+        "output": "current summary:  The patient reports feeling more tired than usual throughout the day and experiencing difficulty concentrating, which has been affecting their work. They deny any other symptoms or recent changes in their life that could be contributing to these symptoms.\n\nThank you for sharing that. It's important to consider all factors that could be affecting your symptoms. Have you had any recent changes in your diet, exercise routine, or medication that could be impacting your energy levels and concentration?"
+    },
+    {
+        "input": "no",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient reports feeling more tired than usual throughout the day and experiencing difficulty concentrating, which has been affecting their work. They deny any recent changes in stress, diet, exercise, or medication.\n\nThank you for providing that information. It's helpful to rule out potential factors. Have you had any recent illnesses or medical conditions that could be contributing to your increased tiredness and difficulty concentrating?"
+    }
+]

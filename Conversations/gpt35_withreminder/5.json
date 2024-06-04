@@ -1,0 +1,22 @@
+[
+    {
+        "input": "I have fever",
+        "output": "I'm sorry to hear that you have a fever. When did you first notice that you had a fever?"
+    },
+    {
+        "input": "since this morning",
+        "output": "You are tracking a symptom. I will ask you questions about your symptom and based on your answers I am creating a summary. To save the summary to your record, which will be seen by your doctor, you need to text me CONFIRM in capital letters. You can text me CONFIRM at any moment while I am asking you questions about your symptom. To cancel and dismiss the conversation text me with CANCEL.\n\ncurrent summary:  The patient has been experiencing a fever since this morning.\n\nThank you for sharing that. Have you taken your temperature to see how high the fever is?"
+    },
+    {
+        "input": "yes. It is at 39 degrees",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient has been experiencing a fever since this morning and has taken their temperature, which is currently at 39 degrees.\n\nThank you for providing your temperature. In addition to the fever, have you been experiencing any other symptoms such as cough, sore throat, body aches, or any other discomfort?"
+    },
+    {
+        "input": "i have a sore throat",
+        "output": "current summary:  The patient has been experiencing a fever of 39 degrees since this morning and also has a sore throat.\n\nThank you for sharing that you have a sore throat along with the fever. Sore throat can often accompany a fever. Have you been experiencing any other symptoms such as cough, runny nose, or difficulty swallowing?"
+    },
+    {
+        "input": "no",
+        "output": "current summary:  The patient has been experiencing a fever of 39 degrees since this morning and also has a sore throat. They have not reported any other symptoms such as cough, runny nose, or difficulty swallowing.\n\nThank you for clarifying that you are not experiencing any other symptoms besides the sore throat and fever. It's important to monitor your symptoms and stay hydrated. If your symptoms worsen or persist, it's advisable to seek medical advice."
+    }
+]

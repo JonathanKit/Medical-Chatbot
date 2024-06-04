@@ -1,0 +1,26 @@
+[
+    {
+        "input": "I am forgetting things more often",
+        "output": "I'm sorry to hear that you're experiencing memory issues. When did you first notice this increase in forgetfulness?"
+    },
+    {
+        "input": "yesterday",
+        "output": "You are tracking a symptom. I will ask you questions about your symptom and based on your answers I am creating a summary. To save the summary to your record, which will be seen by your doctor, you need to text me CONFIRM in capital letters. You can text me CONFIRM at any moment while I am asking you questions about your symptom. To cancel and dismiss the conversation text me with CANCEL.\n\ncurrent summary:  The patient has reported an increase in forgetfulness starting yesterday.\n\nHave you been under any unusual stress or experiencing any major life changes recently that could be contributing to your forgetfulness?"
+    },
+    {
+        "input": "no",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient has been experiencing an increase in forgetfulness since yesterday and denies any recent stress or major life changes that could be contributing to this symptom.\n\nDo you have any other symptoms along with the forgetfulness, such as difficulty concentrating or feeling disoriented?"
+    },
+    {
+        "input": "difficulties concentrating",
+        "output": "current summary:  The patient has been experiencing an increase in forgetfulness since yesterday and also reports difficulties concentrating. There are no known stressors or major life changes that could be contributing to these symptoms.\n\nHave you noticed any changes in your sleep patterns or energy levels that could be related to your difficulties with concentration?"
+    },
+    {
+        "input": "no",
+        "output": "current summary:  The patient has been experiencing an increase in forgetfulness since yesterday and has also reported difficulties concentrating. There are no other symptoms present and there have been no major life changes or unusual stressors that could be contributing to these symptoms. There have been no changes in sleep patterns or energy levels.\n\nHave you experienced any recent head injuries or have a history of head trauma that could be affecting your memory and concentration?"
+    },
+    {
+        "input": "no",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient has been experiencing an increase in forgetfulness since yesterday. They deny any unusual stress or major life changes. They also report difficulties concentrating, but deny any changes in sleep patterns or energy levels. There is no history of head injuries or trauma.\n\nThank you for providing that information. It's important to monitor these symptoms and consider speaking with a healthcare professional for further evaluation and guidance. Is there anything else you would like to share about your symptoms?"
+    }
+]

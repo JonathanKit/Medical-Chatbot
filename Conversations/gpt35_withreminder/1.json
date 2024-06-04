@@ -1,0 +1,22 @@
+[
+    {
+        "input": "I have a headache",
+        "output": "I'm sorry to hear that you have a headache. When did your headache start?"
+    },
+    {
+        "input": "yesterday",
+        "output": "You are tracking a symptom. I will ask you questions about your symptom and based on your answers I am creating a summary. To save the summary to your record, which will be seen by your doctor, you need to text me CONFIRM in capital letters. You can text me CONFIRM at any moment while I am asking you questions about your symptom. To cancel and dismiss the conversation text me with CANCEL.\n\ncurrent summary:  The patient has been experiencing a headache since yesterday.\n\nI see, thank you for sharing that. Can you describe the type of headache you are experiencing?"
+    },
+    {
+        "input": "it is a dull headache",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient has been experiencing a dull headache since yesterday.\n\nThank you for sharing that it is a dull headache. Have you noticed any specific triggers or patterns that make the headache better or worse?"
+    },
+    {
+        "input": "no",
+        "output": "current summary:  The patient has been experiencing a dull headache since yesterday with no specific triggers or patterns that make it better or worse.\n\nUnderstood! Thank you for the reminder. Is there anything else you would like to share about your dull headache?"
+    },
+    {
+        "input": "no",
+        "output": "current summary:  The patient has been experiencing a dull headache since yesterday and has not noticed any specific triggers or patterns that make it better or worse.\n\nGot it! If you have any more symptoms or concerns, feel free to share. I'm here to help!"
+    }
+]

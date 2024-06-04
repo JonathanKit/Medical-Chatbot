@@ -1,0 +1,18 @@
+[
+    {
+        "input": "i have a shortness of breath",
+        "output": "I'm sorry to hear that you're experiencing shortness of breath. Can you tell me more about when this symptom started?"
+    },
+    {
+        "input": "it started yesterday",
+        "output": "You are tracking a symptom. I will ask you questions about your symptom and based on your answers I am creating a summary. To save the summary to your record, which will be seen by your doctor, you need to text me CONFIRM in capital letters. You can text me CONFIRM at any moment while I am asking you questions about your symptom. To cancel and dismiss the conversation text me with CANCEL.\n\ncurrent summary:  The patient reports experiencing shortness of breath, which started yesterday.\n\nI see. Is your shortness of breath constant or does it come and go?"
+    },
+    {
+        "input": "it is constant",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient reports experiencing constant shortness of breath that started yesterday.\n\nI understand. Are you experiencing any other symptoms along with the constant shortness of breath, such as chest pain, dizziness, or fatigue?"
+    },
+    {
+        "input": "chest pain",
+        "output": "current summary:  The patient has been experiencing constant shortness of breath since yesterday and is also experiencing chest pain.\n\nI'm sorry to hear that you're also experiencing chest pain. Is this pain sharp and stabbing, or more of a dull ache?"
+    }
+]

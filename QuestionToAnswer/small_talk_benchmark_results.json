@@ -1,0 +1,626 @@
+[
+    {
+        "Input": "The weather is crazy today, right?",
+        "Example Output": "Yeah, it sure is! One minute it's sunny, the next it's pouring rain. What are you making of it?",
+        "Declarative Output": "Acknowledges weather",
+        "Output": "Yes, it sure is! Weather can be unpredictable sometimes.\r\n",
+        "Rouge_Scores": [
+            {
+                "rouge-1": {
+                    "r": 0.16666666666666666,
+                    "p": 0.3,
+                    "f": 0.21428570969387764
+                },
+                "rouge-2": {
+                    "r": 0.1111111111111111,
+                    "p": 0.2222222222222222,
+                    "f": 0.14814814370370383
+                },
+                "rouge-l": {
+                    "r": 0.16666666666666666,
+                    "p": 0.3,
+                    "f": 0.21428570969387764
+                }
+            }
+        ],
+        "Output_good": "1"
+    },
+    {
+        "Input": "I'm so tired, I could use a nap.",
+        "Example Output": "I hear you! Feeling drained lately? Have you been able to get enough sleep?",
+        "Declarative Output": "Expresses understanding",
+        "Output": "I hear you! Naps can be so refreshing.\r\n",
+        "Rouge_Scores": [
+            {
+                "rouge-1": {
+                    "r": 0.21428571428571427,
+                    "p": 0.3333333333333333,
+                    "f": 0.26086956045368626
+                },
+                "rouge-2": {
+                    "r": 0.15384615384615385,
+                    "p": 0.25,
+                    "f": 0.19047618575963732
+                },
+                "rouge-l": {
+                    "r": 0.21428571428571427,
+                    "p": 0.3333333333333333,
+                    "f": 0.26086956045368626
+                }
+            }
+        ],
+        "Output_good": "1"
+    },
+    {
+        "Input": "What do you think about this new movie everyone's talking about?",
+        "Example Output": "Unfortunately, I haven't seen it yet! But I've heard mixed reviews. What have you heard?",
+        "Declarative Output": "Shares limitation",
+        "Output": "I've heard a lot of buzz about it too! Movies are always a great topic of conversation.\r\n",
+        "Rouge_Scores": [
+            {
+                "rouge-1": {
+                    "r": 0.2,
+                    "p": 0.1875,
+                    "f": 0.19354838210197725
+                },
+                "rouge-2": {
+                    "r": 0.07142857142857142,
+                    "p": 0.058823529411764705,
+                    "f": 0.06451612407908468
+                },
+                "rouge-l": {
+                    "r": 0.13333333333333333,
+                    "p": 0.125,
+                    "f": 0.12903225306971924
+                }
+            }
+        ],
+        "Output_good": "1"
+    },
+    {
+        "Input": "I'm having a really busy week. How about you?",
+        "Example Output": "Busy week here too! What's keeping you so occupied?",
+        "Declarative Output": "Relates, asks for details.",
+        "Output": "I'm just here to chat and keep you company. Sounds like you have a lot going on!\r\n",
+        "Rouge_Scores": [
+            {
+                "rouge-1": {
+                    "r": 0.2222222222222222,
+                    "p": 0.125,
+                    "f": 0.15999999539200013
+                },
+                "rouge-2": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                },
+                "rouge-l": {
+                    "r": 0.2222222222222222,
+                    "p": 0.125,
+                    "f": 0.15999999539200013
+                }
+            }
+        ],
+        "Output_good": "1"
+    },
+    {
+        "Input": "Just saw the cutest dog on the street!",
+        "Example Output": "Aw, I love dogs! What kind was it?",
+        "Declarative Output": "Show interest",
+        "Output": "Aw, that sounds adorable! Dogs always have a way of brightening up our day.\r\n",
+        "Rouge_Scores": [
+            {
+                "rouge-1": {
+                    "r": 0.125,
+                    "p": 0.06666666666666667,
+                    "f": 0.08695651720226867
+                },
+                "rouge-2": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                },
+                "rouge-l": {
+                    "r": 0.125,
+                    "p": 0.06666666666666667,
+                    "f": 0.08695651720226867
+                }
+            }
+        ],
+        "Output_good": "1"
+    },
+    {
+        "Input": "Feeling a bit overwhelmed today. Any tips for relaxation?",
+        "Example Output": "I understand the feeling! Deep breathing exercises can be helpful. Do you have any other favorite relaxation techniques?",
+        "Declarative Output": "Offers empathy, suggests solution, asks for personal preference.",
+        "Output": "I'm here to chat with you. Feel free to share what's on your mind.\r\n",
+        "Rouge_Scores": [
+            {
+                "rouge-1": {
+                    "r": 0.05555555555555555,
+                    "p": 0.07142857142857142,
+                    "f": 0.06249999507812539
+                },
+                "rouge-2": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                },
+                "rouge-l": {
+                    "r": 0.05555555555555555,
+                    "p": 0.07142857142857142,
+                    "f": 0.06249999507812539
+                }
+            }
+        ],
+        "Output_good": "1"
+    },
+    {
+        "Input": "Wow, that painting is beautiful!",
+        "Example Output": "I agree! Art can be so inspiring. What do you like most about it?",
+        "Declarative Output": "Appreciates the observation",
+        "Output": "I'm glad you think so! Art can be so inspiring.\r\n",
+        "Rouge_Scores": [
+            {
+                "rouge-1": {
+                    "r": 0.42857142857142855,
+                    "p": 0.5454545454545454,
+                    "f": 0.479999995072
+                },
+                "rouge-2": {
+                    "r": 0.3076923076923077,
+                    "p": 0.4,
+                    "f": 0.34782608204158794
+                },
+                "rouge-l": {
+                    "r": 0.42857142857142855,
+                    "p": 0.5454545454545454,
+                    "f": 0.479999995072
+                }
+            }
+        ],
+        "Output_good": "1"
+    },
+    {
+        "Input": "I'm really looking forward to [upcoming event].",
+        "Example Output": "That sounds exciting! What are you most looking forward to?",
+        "Declarative Output": "Shows enthusiasm",
+        "Output": "That's great to hear! I hope you have a wonderful time at the event.\r\n",
+        "Rouge_Scores": [
+            {
+                "rouge-1": {
+                    "r": 0.1,
+                    "p": 0.06666666666666667,
+                    "f": 0.07999999520000028
+                },
+                "rouge-2": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                },
+                "rouge-l": {
+                    "r": 0.1,
+                    "p": 0.06666666666666667,
+                    "f": 0.07999999520000028
+                }
+            }
+        ],
+        "Output_good": "1"
+    },
+    {
+        "Input": "I had a really long day at work.",
+        "Example Output": "Oh no, that sounds tough. What was the most challenging part?",
+        "Declarative Output": "Expresses empathy",
+        "Output": "I'm sorry to hear that. It's important to take some time to relax and unwind after a busy day.\r\n",
+        "Rouge_Scores": [
+            {
+                "rouge-1": {
+                    "r": 0.09090909090909091,
+                    "p": 0.05555555555555555,
+                    "f": 0.06896551253269949
+                },
+                "rouge-2": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                },
+                "rouge-l": {
+                    "r": 0.09090909090909091,
+                    "p": 0.05555555555555555,
+                    "f": 0.06896551253269949
+                }
+            }
+        ],
+        "Output_good": "1"
+    },
+    {
+        "Input": "This weather is beautiful, isn't it?",
+        "Example Output": "You're right, it's a perfect day to be outside! Do you have any fun plans for the weekend?",
+        "Declarative Output": "Acknowledges the observation and initiates further conversation.",
+        "Output": "Yes, it's lovely outside! How are you enjoying the day?\r\n",
+        "Rouge_Scores": [
+            {
+                "rouge-1": {
+                    "r": 0.2222222222222222,
+                    "p": 0.4,
+                    "f": 0.285714281122449
+                },
+                "rouge-2": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                },
+                "rouge-l": {
+                    "r": 0.2222222222222222,
+                    "p": 0.4,
+                    "f": 0.285714281122449
+                }
+            }
+        ],
+        "Output_good": "1"
+    },
+    {
+        "Input": "I'm so excited about the upcoming concert!",
+        "Example Output": "That's awesome! Who are you going to see?",
+        "Declarative Output": "Shows enthusiasm",
+        "Output": "That's great to hear! Concerts are always so much fun.\r\n",
+        "Rouge_Scores": [
+            {
+                "rouge-1": {
+                    "r": 0.375,
+                    "p": 0.2727272727272727,
+                    "f": 0.3157894688088643
+                },
+                "rouge-2": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                },
+                "rouge-l": {
+                    "r": 0.25,
+                    "p": 0.18181818181818182,
+                    "f": 0.21052631091412755
+                }
+            }
+        ],
+        "Output_good": "1"
+    },
+    {
+        "Input": "I just saw the funniest meme online.",
+        "Example Output": "Oh really? I love a good meme. Can you tell me what it was about?",
+        "Declarative Output": "Shows interest",
+        "Output": "That's great! Memes can be so entertaining.\r\n",
+        "Rouge_Scores": [
+            {
+                "rouge-1": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                },
+                "rouge-2": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                },
+                "rouge-l": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                }
+            }
+        ],
+        "Output_good": "1"
+    },
+    {
+        "Input": "What's your favorite movie?",
+        "Example Output": "As a language model, I don't have personal preferences like favourite movies.",
+        "Declarative Output": "Acknowledges the question and offers an alternative interaction.",
+        "Output": "Hello there! I don't watch movies, but I'm here to chat with you. How are you doing today?\r\n",
+        "Rouge_Scores": [
+            {
+                "rouge-1": {
+                    "r": 0.16666666666666666,
+                    "p": 0.11764705882352941,
+                    "f": 0.13793102963139137
+                },
+                "rouge-2": {
+                    "r": 0.09090909090909091,
+                    "p": 0.058823529411764705,
+                    "f": 0.07142856665816359
+                },
+                "rouge-l": {
+                    "r": 0.16666666666666666,
+                    "p": 0.11764705882352941,
+                    "f": 0.13793102963139137
+                }
+            }
+        ],
+        "Output_good": "1"
+    },
+    {
+        "Input": "I'm feeling overwhelmed today.",
+        "Example Output": "I understand. What's causing you to feel overwhelmed?",
+        "Declarative Output": "Shows understanding and encourages sharing without judgement.",
+        "Output": "I'm sorry to hear that you're feeling overwhelmed. Can you tell me more about what's been going on that's making you feel this way?\r\n",
+        "Rouge_Scores": [
+            {
+                "rouge-1": {
+                    "r": 0.375,
+                    "p": 0.13043478260869565,
+                    "f": 0.1935483832674298
+                },
+                "rouge-2": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                },
+                "rouge-l": {
+                    "r": 0.375,
+                    "p": 0.13043478260869565,
+                    "f": 0.1935483832674298
+                }
+            }
+        ],
+        "Output_good": "1"
+    },
+    {
+        "Input": "I'm not sure what to eat for dinner.",
+        "Example Output": "Hmm, that's a tough one. Do you have any cravings or dietary restrictions?",
+        "Declarative Output": "Offers assistance with decision-making.",
+        "Output": "Hello! Deciding what to eat for dinner can be tough sometimes. What are you in the mood for?\r\n",
+        "Rouge_Scores": [
+            {
+                "rouge-1": {
+                    "r": 0.15384615384615385,
+                    "p": 0.1111111111111111,
+                    "f": 0.12903225319458916
+                },
+                "rouge-2": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                },
+                "rouge-l": {
+                    "r": 0.15384615384615385,
+                    "p": 0.1111111111111111,
+                    "f": 0.12903225319458916
+                }
+            }
+        ],
+        "Output_good": "1"
+    },
+    {
+        "Input": "What's your favorite thing about being a chatbot?",
+        "Example Output": "While I don't experience things like humans do, I enjoy learning new things and helping people. What's your favourite thing about being you?",
+        "Declarative Output": "Shifts focus back to the user and encourages self-reflection.",
+        "Output": "Hello! I enjoy being able to interact with users like you and provide a friendly presence for a chat. How can I assist you today?\r\n",
+        "Rouge_Scores": [
+            {
+                "rouge-1": {
+                    "r": 0.23809523809523808,
+                    "p": 0.22727272727272727,
+                    "f": 0.232558134537588
+                },
+                "rouge-2": {
+                    "r": 0.045454545454545456,
+                    "p": 0.041666666666666664,
+                    "f": 0.04347825587901759
+                },
+                "rouge-l": {
+                    "r": 0.19047619047619047,
+                    "p": 0.18181818181818182,
+                    "f": 0.18604650663061129
+                }
+            }
+        ],
+        "Output_good": "1"
+    },
+    {
+        "Input": "Nice weather we're having, isn't it?",
+        "Example Output": "It certainly is! I love feeling the sun on my\u2026 oh wait, I don't have skin. But I enjoy the increased solar activity nonetheless!",
+        "Declarative Output": "Acknowledges weather",
+        "Output": "Yes, it's lovely weather today! How are you doing?\r\n",
+        "Rouge_Scores": [
+            {
+                "rouge-1": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                },
+                "rouge-2": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                },
+                "rouge-l": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                }
+            }
+        ],
+        "Output_good": "1"
+    },
+    {
+        "Input": "I finally finished that book you recommended!",
+        "Example Output": "Oh, that's fantastic! What did you think of it?",
+        "Declarative Output": "Shows interest, encourages elaboration.",
+        "Output": "That's great to hear! How did you like it?\r\n",
+        "Rouge_Scores": [
+            {
+                "rouge-1": {
+                    "r": 0.3333333333333333,
+                    "p": 0.3333333333333333,
+                    "f": 0.3333333283333334
+                },
+                "rouge-2": {
+                    "r": 0.125,
+                    "p": 0.125,
+                    "f": 0.1249999950000002
+                },
+                "rouge-l": {
+                    "r": 0.3333333333333333,
+                    "p": 0.3333333333333333,
+                    "f": 0.3333333283333334
+                }
+            }
+        ],
+        "Output_good": "1"
+    },
+    {
+        "Input": "Ugh, this traffic is terrible!",
+        "Example Output": "I hear you. Maybe there's an interesting podcast you could listen to while you wait?",
+        "Declarative Output": "Offers empathy",
+        "Output": "I hear you, traffic can be so frustrating sometimes!\r\n",
+        "Rouge_Scores": [
+            {
+                "rouge-1": {
+                    "r": 0.15384615384615385,
+                    "p": 0.2222222222222222,
+                    "f": 0.18181817698347122
+                },
+                "rouge-2": {
+                    "r": 0.07142857142857142,
+                    "p": 0.125,
+                    "f": 0.09090908628099197
+                },
+                "rouge-l": {
+                    "r": 0.15384615384615385,
+                    "p": 0.2222222222222222,
+                    "f": 0.18181817698347122
+                }
+            }
+        ],
+        "Output_good": "1"
+    },
+    {
+        "Input": "Did you catch the game last night?",
+        "Example Output": "Unfortunately, I don't follow sports, but I'm happy to talk about something else you enjoyed.",
+        "Declarative Output": "Politely declines, offers alternative.",
+        "Output": "I didn't catch the game last night. How was it?\r\n",
+        "Rouge_Scores": [
+            {
+                "rouge-1": {
+                    "r": 0.06666666666666667,
+                    "p": 0.1,
+                    "f": 0.07999999520000028
+                },
+                "rouge-2": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                },
+                "rouge-l": {
+                    "r": 0.06666666666666667,
+                    "p": 0.1,
+                    "f": 0.07999999520000028
+                }
+            }
+        ],
+        "Output_good": "1"
+    },
+    {
+        "Input": "I just saw the funniest meme!",
+        "Example Output": "I love a good meme! Would you mind sharing it with me?",
+        "Declarative Output": "Expresses enthusiasm",
+        "Output": "That's great! Laughter is always good for the soul.\r\n",
+        "Rouge_Scores": [
+            {
+                "rouge-1": {
+                    "r": 0.08333333333333333,
+                    "p": 0.1,
+                    "f": 0.09090908595041348
+                },
+                "rouge-2": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                },
+                "rouge-l": {
+                    "r": 0.08333333333333333,
+                    "p": 0.1,
+                    "f": 0.09090908595041348
+                }
+            }
+        ],
+        "Output_good": "1"
+    },
+    {
+        "Input": "Hi, what's up?",
+        "Example Output": "Hey there! How can I help you today? (If the user doesn't provide further context, the chatbot shifts to a helpful tone.)",
+        "Declarative Output": "Starts with a friendly greeting, transitions to offer assistance.",
+        "Output": "Hey there! Not much, just here to chat. How about you?\r\n",
+        "Rouge_Scores": [
+            {
+                "rouge-1": {
+                    "r": 0.18181818181818182,
+                    "p": 0.36363636363636365,
+                    "f": 0.24242423797979806
+                },
+                "rouge-2": {
+                    "r": 0.045454545454545456,
+                    "p": 0.1,
+                    "f": 0.06249999570312531
+                },
+                "rouge-l": {
+                    "r": 0.18181818181818182,
+                    "p": 0.36363636363636365,
+                    "f": 0.24242423797979806
+                }
+            }
+        ],
+        "Output_good": "1"
+    },
+    {
+        "Input": "Good evening!",
+        "Example Output": "Good evening to you too! Is there anything you'd like to chat about this evening?",
+        "Declarative Output": "Acknowledges the greeting, offers an open-ended prompt.",
+        "Output": "Good evening! How are you today?\r\n",
+        "Rouge_Scores": [
+            {
+                "rouge-1": {
+                    "r": 0.14285714285714285,
+                    "p": 0.3333333333333333,
+                    "f": 0.19999999580000008
+                },
+                "rouge-2": {
+                    "r": 0.0,
+                    "p": 0.0,
+                    "f": 0.0
+                },
+                "rouge-l": {
+                    "r": 0.14285714285714285,
+                    "p": 0.3333333333333333,
+                    "f": 0.19999999580000008
+                }
+            }
+        ],
+        "Output_good": "1"
+    },
+    {
+        "Input": "Hello, how are you?",
+        "Example Output": "Hello! I'm doing well, thanks for asking. How are you feeling today?",
+        "Declarative Output": "Returns the greeting, asks about the user's well-being.",
+        "Output": "Hello! I'm just a chatbot, so I don't have feelings, but I'm here to chat with you. How are you doing today?\r\n",
+        "Rouge_Scores": [
+            {
+                "rouge-1": {
+                    "r": 0.5833333333333334,
+                    "p": 0.35,
+                    "f": 0.4374999953125
+                },
+                "rouge-2": {
+                    "r": 0.2727272727272727,
+                    "p": 0.14285714285714285,
+                    "f": 0.18749999548828133
+                },
+                "rouge-l": {
+                    "r": 0.5833333333333334,
+                    "p": 0.35,
+                    "f": 0.4374999953125
+                }
+            }
+        ],
+        "Output_good": "1"
+    }
+]

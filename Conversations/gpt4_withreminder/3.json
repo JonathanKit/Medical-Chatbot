@@ -1,0 +1,22 @@
+[
+    {
+        "input": "i have a rash on my arm",
+        "output": "I'm sorry to hear that. Can you describe what the rash looks like? For example, is it red, bumpy, scaly, or blistered?"
+    },
+    {
+        "input": "it is red",
+        "output": "You are tracking a symptom. I will ask you questions about your symptom and based on your answers I am creating a summary. To save the summary to your record, which will be seen by your doctor, you need to text me CONFIRM in capital letters. You can text me CONFIRM at any moment while I am asking you questions about your symptom. To cancel and dismiss the conversation text me with CANCEL.\n\ncurrent summary:  The patient reports having a red rash on their arm.\n\nI see. Is the rash itchy or painful?"
+    },
+    {
+        "input": "painful",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient has a red rash on their arm that is painful.\n\nI'm sorry to hear that. Has the rash spread to any other parts of your body?"
+    },
+    {
+        "input": "no",
+        "output": "current summary:  The patient has a red, painful rash on their arm that has not spread to any other parts of their body.\n\nUnderstood. How long have you had this rash?"
+    },
+    {
+        "input": "since 2 days",
+        "output": "current summary:  The patient has a red, painful rash on their arm that has not spread to any other parts of their body. They have had the rash for 2 days.\n\nI see. Have you recently used any new soaps, lotions, or laundry detergents that might have caused an allergic reaction?"
+    }
+]

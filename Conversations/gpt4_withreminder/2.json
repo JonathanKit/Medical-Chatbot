@@ -1,0 +1,34 @@
+[
+    {
+        "input": "I have difficulties sleeping",
+        "output": "I'm sorry to hear that you're having trouble sleeping. Can you tell me more about these difficulties? For example, do you have trouble falling asleep, staying asleep, or both?"
+    },
+    {
+        "input": "trouble staying asleep",
+        "output": "You are tracking a symptom. I will ask you questions about your symptom and based on your answers I am creating a summary. To save the summary to your record, which will be seen by your doctor, you need to text me CONFIRM in capital letters. You can text me CONFIRM at any moment while I am asking you questions about your symptom. To cancel and dismiss the conversation text me with CANCEL.\n\ncurrent summary:  The patient is experiencing difficulties staying asleep.\n\nI see, you're having trouble staying asleep. How often do you wake up during the night?"
+    },
+    {
+        "input": "about 30 times",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient is experiencing difficulties staying asleep and wakes up approximately 30 times during the night.\n\nI'm sorry to hear that you're waking up so frequently. When you wake up during the night, do you find it difficult to fall back asleep?"
+    },
+    {
+        "input": "yes",
+        "output": "current summary:  The patient is experiencing difficulties staying asleep and wakes up approximately 30 times during the night, finding it difficult to fall back asleep.\n\nI understand that it's difficult for you to fall back asleep once you wake up. Do you notice any specific thoughts or feelings that might be keeping you awake?"
+    },
+    {
+        "input": "no",
+        "output": "current summary:  The patient is experiencing difficulties staying asleep, waking up approximately 30 times during the night and finding it difficult to fall back asleep. They do not notice any specific thoughts or feelings that may be causing their sleep troubles.\n\nI see. When you wake up during the night, do you experience any physical discomfort or symptoms such as pain, needing to use the bathroom, or feeling too hot or cold?"
+    },
+    {
+        "input": "no",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient is experiencing difficulties staying asleep, waking up approximately 30 times during the night and finding it difficult to fall back asleep. They do not notice any specific thoughts or feelings keeping them awake and do not experience any physical discomfort or symptoms when waking up.\n\nUnderstood. Do you consume caffeine or alcohol close to your bedtime? These substances can sometimes disrupt sleep."
+    },
+    {
+        "input": "no",
+        "output": "current summary:  The patient is experiencing difficulties staying asleep, waking up approximately 30 times during the night and finding it difficult to fall back asleep. They do not notice any specific thoughts or physical discomfort that may be causing the sleep disturbances. The patient does not consume caffeine or alcohol close to bedtime.\n\nI see. Do you have a regular sleep schedule, meaning do you go to bed and wake up at the same time every day?"
+    },
+    {
+        "input": "Not really, sometimes i go to bed really late",
+        "output": "current summary:  The patient is experiencing difficulties staying asleep, waking up approximately 30 times during the night and finding it difficult to fall back asleep. They do not notice any specific thoughts or feelings keeping them awake and do not experience any physical discomfort or symptoms. They do not consume caffeine or alcohol close to bedtime and do not have a regular sleep schedule.\n\nI understand. Irregular sleep schedules can sometimes contribute to sleep disturbances. Do you often use electronic devices like your phone, tablet, or TV close to bedtime?"
+    }
+]

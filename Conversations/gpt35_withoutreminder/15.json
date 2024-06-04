@@ -1,0 +1,30 @@
+[
+    {
+        "input": "my wound is healing poorly",
+        "output": "I'm sorry to hear that. Can you please describe how the wound looks?"
+    },
+    {
+        "input": "it is a little red",
+        "output": "You are tracking a symptom. I will ask you questions about your symptom and based on your answers I am creating a summary. To save the summary to your record, which will be seen by your doctor, you need to text me CONFIRM in capital letters. You can text me CONFIRM at any moment while I am asking you questions about your symptom. To cancel and dismiss the conversation text me with CANCEL.\n\ncurrent summary:  The patient reports that their wound is healing poorly and appears to be a little red.\n\nIs the redness around the wound spreading or getting worse?"
+    },
+    {
+        "input": "no",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient reports that their wound is healing poorly and appears to be a little red. They deny any spreading or worsening of the redness around the wound.\n\nIs there any pus or discharge coming from the wound?"
+    },
+    {
+        "input": "no",
+        "output": "current summary:  The patient reports that their wound is healing poorly and appears to be a little red. There is no spreading or worsening of the redness, and there is no pus or discharge coming from the wound.\n\nIs the wound warm to the touch?"
+    },
+    {
+        "input": "no",
+        "output": "current summary:  The patient reports that their wound is healing poorly and appears to be a little red. There is no spreading or worsening of the redness, no pus or discharge, and the wound is not warm to the touch.\n\nIs there any foul odor coming from the wound?"
+    },
+    {
+        "input": "no",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient reports that their wound is healing poorly and appears to be a little red. There is no spreading or worsening of the redness, no pus or discharge, no warmth to the touch, and no foul odor.\n\nThank you for providing that information. Have you noticed any swelling around the wound?"
+    },
+    {
+        "input": "no",
+        "output": "current summary:  The patient reports that their wound is healing poorly and appears to be a little red. There is no spreading or worsening of the redness, no pus or discharge, no warmth to the touch, no foul odor, and no swelling around the wound.\n\nThank you for sharing that. It sounds like you are taking good care of your wound. If you have any other concerns or if the situation changes, please let me know."
+    }
+]

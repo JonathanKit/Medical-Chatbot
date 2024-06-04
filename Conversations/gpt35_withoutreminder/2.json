@@ -1,0 +1,38 @@
+[
+    {
+        "input": "I have difficulties sleeping",
+        "output": "I'm sorry to hear that you're having trouble sleeping. Can you tell me more about your sleep difficulties? Are you having trouble falling asleep, staying asleep, or waking up too early?"
+    },
+    {
+        "input": "I have trouble staying asleep",
+        "output": "You are tracking a symptom. I will ask you questions about your symptom and based on your answers I am creating a summary. To save the summary to your record, which will be seen by your doctor, you need to text me CONFIRM in capital letters. You can text me CONFIRM at any moment while I am asking you questions about your symptom. To cancel and dismiss the conversation text me with CANCEL.\n\ncurrent summary:  The patient reports having trouble staying asleep.\n\nI see, thank you for sharing that. How often do you find yourself waking up during the night? And how long does it typically take for you to fall back asleep?"
+    },
+    {
+        "input": "around 30 times and it takes like 5min",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient is experiencing difficulties sleeping, specifically waking up around 30 times during the night and taking approximately 5 minutes to fall back asleep.\n\nThat sounds really disruptive to your sleep. Have you noticed any patterns or triggers that might be causing you to wake up so frequently during the night?"
+    },
+    {
+        "input": "no, not at all",
+        "output": "current summary:  The patient is experiencing difficulties sleeping, specifically with falling and staying asleep. They wake up frequently during the night and have not noticed any patterns or triggers causing this disruption.\n\nI understand. Have you been feeling more stressed or anxious lately? Sometimes stress and anxiety can contribute to difficulties with sleep."
+    },
+    {
+        "input": "no",
+        "output": "current summary:  The patient is experiencing difficulties with sleeping, specifically waking up frequently during the night and having trouble falling back asleep. They have not noticed any patterns or triggers and deny feeling more stressed or anxious lately.\n\nI see, thank you for sharing that. Have you made any changes to your sleep environment or bedtime routine recently that might be affecting your ability to sleep well?"
+    },
+    {
+        "input": "no",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient is experiencing difficulties with sleeping, specifically with falling and staying asleep. They wake up frequently during the night and have not noticed any patterns or triggers. The patient has not made any recent changes to their sleep environment or bedtime routine. They have also not mentioned feeling more stressed or anxious lately.\n\nGot it, thank you for letting me know. Have you been experiencing any physical discomfort or pain that could be making it difficult for you to sleep through the night?"
+    },
+    {
+        "input": "no",
+        "output": "current summary:  The patient is experiencing difficulties sleeping, specifically with falling and staying asleep. They wake up frequently during the night and have not noticed any patterns or triggers. They have not made any recent changes to their sleep environment or bedtime routine. The patient denies experiencing any physical discomfort or pain that could be affecting their sleep.\n\nThank you for clarifying that. Have you tried any relaxation techniques or sleep hygiene practices to help improve your sleep quality?"
+    },
+    {
+        "input": "no",
+        "output": "current summary:  The patient is experiencing difficulties with sleeping, specifically waking up frequently during the night and having trouble falling back asleep. They have not noticed any patterns or triggers for their sleep difficulties and have not made any recent changes to their sleep environment or bedtime routine. The patient has not tried any relaxation techniques or sleep hygiene practices to improve their sleep quality.\n\nI understand. Would you be interested in learning some relaxation techniques or sleep hygiene practices that could potentially help improve your sleep?"
+    },
+    {
+        "input": "yes",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient is experiencing difficulties with sleeping, specifically waking up frequently during the night and having trouble falling back asleep. They have not noticed any patterns or triggers for their sleep difficulties, but have been feeling more stressed and anxious lately. The patient has not made any recent changes to their sleep environment or bedtime routine. They have not experienced any physical discomfort or pain that could be affecting their sleep. The patient is interested in learning relaxation techniques and sleep hygiene practices to improve their sleep quality.\n\nThat's great to hear! Have you tried techniques such as deep breathing exercises, progressive muscle relaxation, or mindfulness meditation before bedtime to help you relax and unwind?"
+    }
+]

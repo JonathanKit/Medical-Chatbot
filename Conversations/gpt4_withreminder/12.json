@@ -1,0 +1,18 @@
+[
+    {
+        "input": "i feel sleepy",
+        "output": "I'm sorry to hear that you're feeling sleepy. Can you tell me more about this? For example, do you feel sleepy all the time or only at certain times of the day?"
+    },
+    {
+        "input": "all the time",
+        "output": "You are tracking a symptom. I will ask you questions about your symptom and based on your answers I am creating a summary. To save the summary to your record, which will be seen by your doctor, you need to text me CONFIRM in capital letters. You can text me CONFIRM at any moment while I am asking you questions about your symptom. To cancel and dismiss the conversation text me with CANCEL.\n\ncurrent summary:  The patient reports feeling sleepy all the time.\n\nI see, feeling sleepy all the time can be quite challenging. Have you noticed any other symptoms, such as difficulty concentrating or lack of energy?"
+    },
+    {
+        "input": "i have a lack of energy",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient reports feeling sleepy all the time and also experiencing a lack of energy.\n\nI understand that you're feeling a lack of energy. Have there been any changes in your sleep patterns recently, like difficulty falling asleep or waking up frequently during the night?"
+    },
+    {
+        "input": "no",
+        "output": "current summary:  The patient reports feeling sleepy all the time and a lack of energy. No changes in sleep patterns have been noted.\n\nI see. Are there any changes in your daily routine or diet that might be contributing to your constant sleepiness and lack of energy?"
+    }
+]

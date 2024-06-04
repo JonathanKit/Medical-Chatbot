@@ -1,0 +1,22 @@
+[
+    {
+        "input": "i forget things more often than before",
+        "output": "I'm sorry to hear that you're experiencing memory issues. Can you tell me more about the type of things you're forgetting? Is it recent events, conversations, or something else?"
+    },
+    {
+        "input": "i forget actions that i want to do",
+        "output": "You are tracking a symptom. I will ask you questions about your symptom and based on your answers I am creating a summary. To save the summary to your record, which will be seen by your doctor, you need to text me CONFIRM in capital letters. You can text me CONFIRM at any moment while I am asking you questions about your symptom. To cancel and dismiss the conversation text me with CANCEL.\n\ncurrent summary:  The patient reports experiencing memory issues, specifically forgetting actions they want to do.\n\nI see, you're having trouble remembering tasks you intend to do. Can you tell me how long you've been experiencing this issue?"
+    },
+    {
+        "input": "since around a week",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient is experiencing memory issues, specifically forgetting tasks they intend to do. This has been happening for approximately one week.\n\nI understand. Have there been any significant changes in your life recently, such as increased stress, changes in sleep patterns, or new medications?"
+    },
+    {
+        "input": "no",
+        "output": "current summary:  The patient is experiencing memory issues, specifically forgetting tasks they intend to do. This has been happening for approximately one week and there have been no recent changes in their life that could be contributing to this issue.\n\nI see. Are you experiencing any other symptoms along with forgetfulness, such as difficulty concentrating, confusion, or changes in mood or behavior?"
+    },
+    {
+        "input": "confusion and sometimes difficulties concentrating",
+        "output": "current summary:  The patient is experiencing memory issues, specifically forgetting tasks they intend to do. This has been happening for about a week and there have been no significant changes in their life. They are also experiencing confusion and difficulties concentrating.\n\nI understand. Have you noticed any patterns to this confusion and difficulty concentrating? For example, does it happen more often at certain times of the day or after certain activities?"
+    }
+]

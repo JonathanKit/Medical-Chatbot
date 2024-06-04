@@ -1,0 +1,22 @@
+[
+    {
+        "input": "I have chest pain",
+        "output": "I'm sorry to hear that you're not feeling well. Can you please describe the chest pain? Is it sharp, dull, burning, or crushing?"
+    },
+    {
+        "input": "it is sharp",
+        "output": "You are tracking a symptom. I will ask you questions about your symptom and based on your answers I am creating a summary. To save the summary to your record, which will be seen by your doctor, you need to text me CONFIRM in capital letters. You can text me CONFIRM at any moment while I am asking you questions about your symptom. To cancel and dismiss the conversation text me with CANCEL.\n\ncurrent summary:  The patient is experiencing sharp chest pain.\n\nI see, thank you for sharing. Is the sharp pain constant or does it come and go?"
+    },
+    {
+        "input": "it comes and go",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient is experiencing sharp chest pain that comes and goes.\n\nUnderstood. Can you tell me if there's anything that seems to trigger the pain or make it worse, like physical activity or stress?"
+    },
+    {
+        "input": "yes, physical activity makes it worse",
+        "output": "current summary:  The patient is experiencing sharp chest pain that comes and goes. Physical activity seems to worsen the pain.\n\nI see. Does the pain radiate to any other part of your body, such as your arms, neck, jaw, back, or abdomen?"
+    },
+    {
+        "input": "no",
+        "output": "current summary:  The patient is experiencing sharp chest pain that comes and goes, and is worsened by physical activity. The pain does not radiate to any other part of the body.\n\nUnderstood. Do you experience any other symptoms along with the chest pain, such as shortness of breath, sweating, nausea, or dizziness?"
+    }
+]

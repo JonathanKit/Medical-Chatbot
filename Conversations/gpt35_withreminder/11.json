@@ -1,0 +1,26 @@
+[
+    {
+        "input": "I am getting lost in familiar places",
+        "output": "When did you first notice that you were getting lost in familiar places?"
+    },
+    {
+        "input": "last week",
+        "output": "You are tracking a symptom. I will ask you questions about your symptom and based on your answers I am creating a summary. To save the summary to your record, which will be seen by your doctor, you need to text me CONFIRM in capital letters. You can text me CONFIRM at any moment while I am asking you questions about your symptom. To cancel and dismiss the conversation text me with CANCEL.\n\ncurrent summary:  The patient reported experiencing getting lost in familiar places since last week.\n\nHave you experienced any other changes in your memory or cognition recently?"
+    },
+    {
+        "input": "my memory gets worse",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient has reported getting lost in familiar places and a decline in memory over the past week.\n\nHave you noticed any other symptoms along with your worsening memory, such as confusion or difficulty concentrating?"
+    },
+    {
+        "input": "no",
+        "output": "current summary:  The patient has reported getting lost in familiar places for the past week and has also noticed a decline in their memory. They have not experienced any other symptoms such as confusion or difficulty concentrating.\n\nThank you for sharing that information. Have you spoken to a healthcare professional about your memory issues and getting lost in familiar places?"
+    },
+    {
+        "input": "no",
+        "output": "current summary:  The patient has been experiencing getting lost in familiar places for the past week and has noticed a worsening of their memory. They have not experienced any other symptoms such as confusion or difficulty concentrating and have not consulted a healthcare professional about their memory issues.\n\nUnderstood. It's important to discuss these symptoms with a healthcare professional to determine the underlying cause and appropriate next steps. Would you like any guidance on how to start that conversation with a healthcare provider?"
+    },
+    {
+        "input": "yes",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient reports experiencing worsening memory and getting lost in familiar places for the past week. They have not noticed any other symptoms and have not spoken to a healthcare professional about these issues. They are seeking guidance on how to start a conversation with a healthcare provider.\n\nWhen starting a conversation with a healthcare provider about your memory issues and getting lost in familiar places, it may be helpful to jot down any specific examples or instances that have concerned you. This can provide valuable information to the healthcare provider and help guide the discussion. Would you like any more tips on how to prepare for this conversation?"
+    }
+]

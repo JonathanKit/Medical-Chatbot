@@ -1,0 +1,30 @@
+[
+    {
+        "input": "I have a fever",
+        "output": "I'm sorry to hear that you have a fever. When did you first notice that your temperature was elevated?"
+    },
+    {
+        "input": "today, 1 hour ago",
+        "output": "You are tracking a symptom. I will ask you questions about your symptom and based on your answers I am creating a summary. To save the summary to your record, which will be seen by your doctor, you need to text me CONFIRM in capital letters. You can text me CONFIRM at any moment while I am asking you questions about your symptom. To cancel and dismiss the conversation text me with CANCEL.\n\ncurrent summary:  The patient reports having a fever that started 1 hour ago.\n\nI see, thank you for sharing that. Have you taken any medication to help reduce your fever, such as acetaminophen or ibuprofen?"
+    },
+    {
+        "input": "no",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient reports having a fever and has not taken any medication to reduce it.\n\nI understand. Have you been experiencing any other symptoms along with your fever, such as cough, sore throat, body aches, or any other discomfort?"
+    },
+    {
+        "input": "sore throat",
+        "output": "current summary:  The patient has a fever and a sore throat. They have not taken any medication to reduce their fever.\n\nI'm sorry to hear about your sore throat. How long have you been experiencing this symptom?"
+    },
+    {
+        "input": "since 3 days",
+        "output": "current summary:  The patient has been experiencing a fever for an unspecified amount of time and a sore throat for the past 3 days. They have not taken any medication to reduce their fever.\n\nThank you for sharing that information. Have you noticed any other symptoms like cough, runny nose, or difficulty swallowing along with your sore throat?"
+    },
+    {
+        "input": "no",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient has been experiencing a fever and a sore throat for an unknown duration. They have not taken any medication and have not reported any other symptoms.\n\nI see, thank you for clarifying. Have you tried any home remedies or over-the-counter treatments to help alleviate your sore throat?"
+    },
+    {
+        "input": "no",
+        "output": "current summary:  The patient has been experiencing a fever and a sore throat for an unknown duration. They have not taken any medication or tried any home remedies to alleviate their symptoms.\n\nI understand. It's important to stay hydrated and get plenty of rest when you're feeling unwell. If your symptoms persist or worsen, it's a good idea to consult with a healthcare provider. Is there anything else you'd like to share about how you're feeling?"
+    }
+]

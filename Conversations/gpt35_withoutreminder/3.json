@@ -1,0 +1,18 @@
+[
+    {
+        "input": "I have a rash on my arm",
+        "output": "I'm sorry to hear that you have a rash on your arm. When did you first notice the rash appearing?"
+    },
+    {
+        "input": "a week ago",
+        "output": "You are tracking a symptom. I will ask you questions about your symptom and based on your answers I am creating a summary. To save the summary to your record, which will be seen by your doctor, you need to text me CONFIRM in capital letters. You can text me CONFIRM at any moment while I am asking you questions about your symptom. To cancel and dismiss the conversation text me with CANCEL.\n\ncurrent summary:  The patient has had a rash on their arm for one week.\n\nThank you for sharing that information. Can you describe the appearance of the rash? Is it raised, flat, red, itchy, or painful?"
+    },
+    {
+        "input": "it is red",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient has a red rash on their arm.\n\nThank you for sharing that detail. Is the rash limited to one area on your arm, or is it spreading to other parts of your body?"
+    },
+    {
+        "input": "it is limited to my arms",
+        "output": "current summary:  The patient has a rash on their arm that appeared recently. The rash is described as limited to the arms and its appearance is unknown.\n\nThank you for clarifying that the rash is limited to your arms. Have you recently been in contact with any new substances such as plants, chemicals, or fabrics that could have triggered the rash?"
+    }
+]

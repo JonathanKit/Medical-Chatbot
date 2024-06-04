@@ -1,0 +1,26 @@
+[
+    {
+        "input": "I have chest pain",
+        "output": "I'm sorry to hear that you're experiencing chest pain. When did the chest pain start?"
+    },
+    {
+        "input": "since yesterday",
+        "output": "You are tracking a symptom. I will ask you questions about your symptom and based on your answers I am creating a summary. To save the summary to your record, which will be seen by your doctor, you need to text me CONFIRM in capital letters. You can text me CONFIRM at any moment while I am asking you questions about your symptom. To cancel and dismiss the conversation text me with CANCEL.\n\ncurrent summary:  The patient has been experiencing chest pain since yesterday.\n\nThank you for sharing that the chest pain started yesterday. Can you describe the type of chest pain you are feeling?"
+    },
+    {
+        "input": "It is a strong sharp pain",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient has been experiencing strong, sharp chest pain since yesterday.\n\nThank you for describing the chest pain as strong and sharp. Have you noticed if the pain gets worse with certain movements or activities?"
+    },
+    {
+        "input": "breathing deep make the pain worse",
+        "output": "current summary:  The patient has been experiencing strong and sharp chest pain since yesterday, which worsens with deep breathing.\n\nThank you for sharing that deep breathing makes the chest pain worse. Have you experienced any other symptoms along with the chest pain, such as shortness of breath or dizziness?"
+    },
+    {
+        "input": "no",
+        "output": "current summary:  The patient has been experiencing strong and sharp chest pain since yesterday, which worsens with deep breathing. No other symptoms have been reported.\n\nThank you for clarifying that you have not experienced any other symptoms along with the chest pain. It's important to monitor your symptoms closely. Have you had any recent injuries or trauma to your chest area that could be related to the pain?"
+    },
+    {
+        "input": "no",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient has been experiencing strong and sharp chest pain since yesterday. The pain worsens with deep breathing and there are no other accompanying symptoms. The patient denies any recent injuries or trauma to the chest area.\n\nThank you for clarifying that there have been no recent injuries or trauma to your chest area. It's important to continue monitoring your symptoms closely. If the chest pain persists or worsens, it's advisable to seek medical attention promptly."
+    }
+]

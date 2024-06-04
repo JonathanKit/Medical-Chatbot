@@ -1,0 +1,26 @@
+[
+    {
+        "input": "I have shortness of breath",
+        "output": "How long have you been experiencing shortness of breath?"
+    },
+    {
+        "input": "since 2 hours",
+        "output": "You are tracking a symptom. I will ask you questions about your symptom and based on your answers I am creating a summary. To save the summary to your record, which will be seen by your doctor, you need to text me CONFIRM in capital letters. You can text me CONFIRM at any moment while I am asking you questions about your symptom. To cancel and dismiss the conversation text me with CANCEL.\n\ncurrent summary:  The patient has been experiencing shortness of breath for the past 2 hours.\n\nHave you noticed any triggers or specific activities that make your shortness of breath worse?"
+    },
+    {
+        "input": "physical activity",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient has been experiencing shortness of breath for the past 2 hours, which is worsened by physical activity.\n\nThank you for sharing that. Have you experienced shortness of breath during physical activity before, or is this the first time?"
+    },
+    {
+        "input": "first time",
+        "output": "current summary:  The patient has been experiencing shortness of breath for the past 2 hours, with physical activity being a trigger. This is the first time they have experienced shortness of breath during physical activity.\n\nThank you for sharing that this is the first time you've experienced shortness of breath during physical activity. Have you had any recent illnesses or infections that could be related to this new symptom?"
+    },
+    {
+        "input": "no",
+        "output": "current summary:  The patient has been experiencing shortness of breath for the past 2 hours, specifically during physical activity. This is the first time they have experienced this symptom during physical activity and they have not had any recent illnesses or infections that could be related.\n\nThank you for clarifying that you have not had any recent illnesses or infections. It's important to monitor your symptoms closely. Have you noticed any other symptoms along with the shortness of breath, such as chest pain or coughing?"
+    },
+    {
+        "input": "no",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient has been experiencing shortness of breath for the past 2 hours, specifically during physical activity. This is the first time they have experienced this symptom during physical activity and they have not had any recent illnesses or infections. They have not noticed any other symptoms such as chest pain or coughing.\n\nThank you for clarifying that you have not experienced any other symptoms along with the shortness of breath. It's important to continue monitoring your symptoms and consider seeking medical advice if the shortness of breath persists or worsens. If you have any other concerns or questions, feel free to share."
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "input": "i have mood swings",
+        "output": "I'm sorry to hear that you're experiencing mood swings. Can you tell me more about how often these mood swings occur?"
+    },
+    {
+        "input": "they occur a few times a day",
+        "output": "You are tracking a symptom. I will ask you questions about your symptom and based on your answers I am creating a summary. To save the summary to your record, which will be seen by your doctor, you need to text me CONFIRM in capital letters. You can text me CONFIRM at any moment while I am asking you questions about your symptom. To cancel and dismiss the conversation text me with CANCEL.\n\ncurrent summary:  The patient reports experiencing mood swings a few times a day.\n\nI see. Can you describe how intense these mood swings are? For example, do they go from extreme happiness to extreme sadness?"
+    },
+    {
+        "input": "they go from happy to sad, the intensity is middle",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient experiences mood swings a few times a day, going from happy to sad with a moderate intensity.\n\nI understand. Have you noticed any specific triggers that seem to cause these mood swings?"
+    },
+    {
+        "input": "no",
+        "output": "current summary:  The patient is experiencing mood swings a few times a day, going from happy to sad with a moderate intensity. There are no specific triggers identified for these mood swings.\n\nI see. Have these mood swings been affecting your daily life or activities?"
+    }
+]

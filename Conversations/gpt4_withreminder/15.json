@@ -1,0 +1,38 @@
+[
+    {
+        "input": "I have a wound that is not healing ",
+        "output": "I'm sorry to hear that. Can you tell me how long ago you got this wound?"
+    },
+    {
+        "input": "3 weeks ago",
+        "output": "You are tracking a symptom. I will ask you questions about your symptom and based on your answers I am creating a summary. To save the summary to your record, which will be seen by your doctor, you need to text me CONFIRM in capital letters. You can text me CONFIRM at any moment while I am asking you questions about your symptom. To cancel and dismiss the conversation text me with CANCEL.\n\ncurrent summary:  The patient reports having a non-healing wound that was acquired 3 weeks ago.\n\nI see. Can you describe the appearance of the wound? For example, is there any redness, swelling, or discharge?"
+    },
+    {
+        "input": "it is a little red",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient has a wound that is not healing, which was acquired 3 weeks ago. The wound appears to be slightly red.\n\nI understand. Is the redness spreading or getting worse over time?"
+    },
+    {
+        "input": "no",
+        "output": "current summary:  The patient has a wound that is not healing, which was acquired 3 weeks ago. The wound appears to be slightly red, but there is no spreading or worsening of the redness over time.\n\nI see. Is there any pain associated with the wound?"
+    },
+    {
+        "input": "yes, it hurts",
+        "output": "current summary:  The patient has a wound that is 3 weeks old and is slightly red. There is no spreading or worsening of the redness. The patient also experiences pain associated with the wound.\n\nI'm sorry to hear that you're in pain. On a scale of 1 to 10, with 1 being very mild and 10 being the worst pain you've ever felt, how would you rate your pain?"
+    },
+    {
+        "input": "4/10",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient has a wound that is not healing, which was acquired 3 weeks ago. The wound appears slightly red and is not spreading or getting worse over time. The patient reports feeling pain associated with the wound, with a pain level of 4 out of 10.\n\nI see. Is there any discharge or pus coming from the wound?"
+    },
+    {
+        "input": "no",
+        "output": "current summary:  The patient has a wound that is not healing, which they got 3 weeks ago. The wound appears slightly red and there is no spreading or worsening of the redness. The patient reports feeling pain at a level of 4 out of 10, but there is no discharge or pus coming from the wound.\n\nUnderstood. Have you noticed any other symptoms like fever, chills, or general feeling of being unwell?"
+    },
+    {
+        "input": "no",
+        "output": "current summary:  The patient has a wound that is not healing, which they got 3 weeks ago. The wound is slightly red and there is no spreading or worsening of the redness. The patient reports feeling pain at a level of 4 out of 10, but there is no discharge or pus coming from the wound. There are no other accompanying symptoms such as fever, chills, or feeling unwell.\n\nI see. Have you been using any treatments or medications on the wound?"
+    },
+    {
+        "input": "i have used a sticking plaster",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient has a wound that is not healing, which they got 3 weeks ago. The wound appears slightly red and there is no spreading or worsening of the redness. The patient reports feeling pain at a level of 4 out of 10. There is no discharge or pus coming from the wound and the patient has not experienced any other symptoms such as fever or chills. They have used a sticking plaster as a treatment for the wound.\n\nI see. Have you been changing the plaster regularly and keeping the wound clean?"
+    }
+]

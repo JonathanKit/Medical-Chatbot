@@ -1,0 +1,18 @@
+[
+    {
+        "input": "I am getting lost at familiar places",
+        "output": "I'm sorry to hear that you're experiencing this. Can you tell me more about how often this is happening?"
+    },
+    {
+        "input": "about once a day",
+        "output": "You are tracking a symptom. I will ask you questions about your symptom and based on your answers I am creating a summary. To save the summary to your record, which will be seen by your doctor, you need to text me CONFIRM in capital letters. You can text me CONFIRM at any moment while I am asking you questions about your symptom. To cancel and dismiss the conversation text me with CANCEL.\n\ncurrent summary:  The patient is experiencing getting lost at familiar places, which occurs about once a day.\n\nI see. Can you tell me if there are any other symptoms you're experiencing along with this, such as confusion, forgetfulness, or difficulty concentrating?"
+    },
+    {
+        "input": "yes, confusion and forgetfullness",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient is experiencing getting lost at familiar places about once a day. They also report experiencing confusion and forgetfulness.\n\nI understand. Are these symptoms affecting your daily life activities, such as work, hobbies, or relationships?"
+    },
+    {
+        "input": "no",
+        "output": "current summary:  The patient is experiencing getting lost at familiar places about once a day, along with symptoms of confusion and forgetfulness. These symptoms are not currently affecting their daily life activities.\n\nI see. Have you noticed any patterns or triggers that seem to make these symptoms worse, such as stress, lack of sleep, or certain times of the day?"
+    }
+]

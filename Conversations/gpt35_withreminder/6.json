@@ -1,0 +1,18 @@
+[
+    {
+        "input": "i have a cough",
+        "output": "How long have you had this cough?"
+    },
+    {
+        "input": "since 2 days",
+        "output": "You are tracking a symptom. I will ask you questions about your symptom and based on your answers I am creating a summary. To save the summary to your record, which will be seen by your doctor, you need to text me CONFIRM in capital letters. You can text me CONFIRM at any moment while I am asking you questions about your symptom. To cancel and dismiss the conversation text me with CANCEL.\n\ncurrent summary:  The patient has had a cough for 2 days.\n\nIs your cough dry or do you produce mucus when you cough?"
+    },
+    {
+        "input": "my cough is dry",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient has had a dry cough for the past 2 days.\n\nThank you for sharing that your cough is dry. Have you experienced any other symptoms along with the cough, such as fever, sore throat, or shortness of breath?"
+    },
+    {
+        "input": "no",
+        "output": "current summary:  The patient has had a dry cough for 2 days and has not experienced any other symptoms such as fever, sore throat, or shortness of breath.\n\nThank you for providing that information. Is there anything else you would like to share about your cough or any other symptoms you may be experiencing?"
+    }
+]

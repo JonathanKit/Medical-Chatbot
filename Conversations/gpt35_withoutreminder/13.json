@@ -1,0 +1,26 @@
+[
+    {
+        "input": "I have a shortness of breath",
+        "output": "I'm sorry to hear that you're experiencing shortness of breath. When did you first notice this symptom?"
+    },
+    {
+        "input": "yesterday",
+        "output": "You are tracking a symptom. I will ask you questions about your symptom and based on your answers I am creating a summary. To save the summary to your record, which will be seen by your doctor, you need to text me CONFIRM in capital letters. You can text me CONFIRM at any moment while I am asking you questions about your symptom. To cancel and dismiss the conversation text me with CANCEL.\n\ncurrent summary:  The patient has been experiencing shortness of breath since yesterday.\n\nThank you for sharing that. Have you experienced shortness of breath before, or is this the first time you've had this symptom?"
+    },
+    {
+        "input": "first time",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient is experiencing shortness of breath for the first time, which was noticed yesterday.\n\nI see, thank you for letting me know. Have you had any recent illnesses or been exposed to any triggers that could potentially cause shortness of breath, such as allergies or smoke?"
+    },
+    {
+        "input": "no",
+        "output": "current summary:  The patient is experiencing shortness of breath for the first time, starting yesterday. They have not had any recent illnesses or been exposed to any triggers that could potentially cause this symptom.\n\nI appreciate your response. Are you currently feeling any chest pain or tightness along with the shortness of breath?"
+    },
+    {
+        "input": "yes, chest pain",
+        "output": "current summary:  The patient is experiencing shortness of breath and chest pain for the first time, starting yesterday. They have not had any recent illnesses or exposure to potential triggers.\n\nThank you for sharing that. On a scale of 1 to 10, how would you rate the severity of your chest pain?"
+    },
+    {
+        "input": "3/10",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient has been experiencing shortness of breath since yesterday, which is the first time they have had this symptom. They have not had any recent illnesses or exposure to potential triggers. They are also experiencing chest pain, rated at a 3 out of 10 in severity.\n\nThank you for providing that information. Does the chest pain worsen with deep breathing or movement, or does it stay the same regardless of your actions?"
+    }
+]

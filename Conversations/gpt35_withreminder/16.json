@@ -1,0 +1,34 @@
+[
+    {
+        "input": "I have increased thirst and urination",
+        "output": "How long have you been experiencing increased thirst and urination?"
+    },
+    {
+        "input": "since a week",
+        "output": "You are tracking a symptom. I will ask you questions about your symptom and based on your answers I am creating a summary. To save the summary to your record, which will be seen by your doctor, you need to text me CONFIRM in capital letters. You can text me CONFIRM at any moment while I am asking you questions about your symptom. To cancel and dismiss the conversation text me with CANCEL.\n\ncurrent summary:  The patient has been experiencing increased thirst and urination for one week.\n\nHave you noticed any other symptoms along with increased thirst and urination, such as weight loss or fatigue?"
+    },
+    {
+        "input": "no",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient has been experiencing increased thirst and urination for one week, without any other accompanying symptoms such as weight loss or fatigue.\n\nUnderstood! Thank you for the reminder. \n\nHave you made any changes to your diet or lifestyle recently that could be contributing to the increased thirst and urination?"
+    },
+    {
+        "input": "no",
+        "output": "current summary:  The patient has been experiencing increased thirst and urination for one week and has not noticed any other symptoms or made any recent changes to their diet or lifestyle.\n\nThank you for the reminder. \n\nDo you have any family history of diabetes or other medical conditions that could be related to your symptoms of increased thirst and urination?"
+    },
+    {
+        "input": "yes, some family members habe diabetes",
+        "output": "current summary:  The patient has been experiencing increased thirst and urination for a week and has not noticed any other symptoms. They have not made any recent changes to their diet or lifestyle and have a family history of diabetes.\n\nThank you for sharing that information. It's important to consider family history when evaluating symptoms. \n\nHave you ever been diagnosed with diabetes yourself, or have you had your blood sugar levels checked recently?"
+    },
+    {
+        "input": "no",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient has been experiencing increased thirst and urination for a week. They have not noticed any other symptoms, made any recent changes to their diet or lifestyle, and have a family history of diabetes. They have not been diagnosed with diabetes or had their blood sugar levels checked recently.\n\nThank you for sharing that information. It's important to consider family history when evaluating symptoms. \n\nHave you ever been diagnosed with diabetes yourself, or have you had your blood sugar levels checked recently?"
+    },
+    {
+        "input": "no",
+        "output": "current summary:  The patient has been experiencing increased thirst and urination for one week. They have not noticed any other symptoms or made any recent changes to their diet or lifestyle. There is a family history of diabetes, but the patient has not been diagnosed with diabetes or had their blood sugar levels checked recently.\n\nThank you for clarifying. \n\nGiven your family history of diabetes and your symptoms of increased thirst and urination, it may be a good idea to consult with a healthcare provider for further evaluation and possibly some blood tests to check your blood sugar levels. Would you like some guidance on how to approach this with your healthcare provider?"
+    },
+    {
+        "input": "yes",
+        "output": "current summary:  The patient has been experiencing increased thirst and urination for a week and has not noticed any other symptoms. They have not made any recent changes to their diet or lifestyle and have a family history of diabetes. The patient has not been diagnosed with diabetes themselves and has not had their blood sugar levels checked recently. They are open to seeking guidance from a healthcare provider for further evaluation and possible blood tests.\n\nI understand. It's great that you're considering discussing this with your healthcare provider. When you schedule an appointment, be sure to mention your symptoms, family history of diabetes, and any concerns you may have. Your healthcare provider can then determine the appropriate next steps for further evaluation and management. If you have any more questions or need further assistance, feel free to ask!"
+    }
+]

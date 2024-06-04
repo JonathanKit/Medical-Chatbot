@@ -1,0 +1,26 @@
+[
+    {
+        "input": "I feel disoriented",
+        "output": "When did you start feeling disoriented?"
+    },
+    {
+        "input": "this morning",
+        "output": "You are tracking a symptom. I will ask you questions about your symptom and based on your answers I am creating a summary. To save the summary to your record, which will be seen by your doctor, you need to text me CONFIRM in capital letters. You can text me CONFIRM at any moment while I am asking you questions about your symptom. To cancel and dismiss the conversation text me with CANCEL.\n\ncurrent summary:  The patient reports feeling disoriented since this morning.\n\nDo you remember anything specific that happened before you started feeling disoriented this morning?"
+    },
+    {
+        "input": "no, but it happend before, eg last week",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient reports feeling disoriented since this morning, with a previous occurrence last week. No specific trigger or event is remembered.\n\nI see, have you experienced any other symptoms along with feeling disoriented, such as dizziness or confusion?"
+    },
+    {
+        "input": "confusion sometimes",
+        "output": "current summary:  The patient has been feeling disoriented since this morning and has experienced confusion in the past, such as last week.\n\nHave you noticed if anything triggers these episodes of feeling disoriented and confused, such as certain activities or environments?"
+    },
+    {
+        "input": "no",
+        "output": "current summary:  The patient has been feeling disoriented since this morning and has experienced similar episodes in the past, such as last week. They also report occasional confusion, but do not notice any specific triggers for these symptoms.\n\nUnderstood! Is there anything else you would like to share about your episodes of feeling disoriented and confused?"
+    },
+    {
+        "input": "no",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient has been feeling disoriented since this morning and has experienced similar episodes in the past, such as last week. They also occasionally experience confusion along with the disorientation. There is no known trigger for these episodes.\n\nGot it! If you have any more symptoms or details you'd like to share later, feel free to let me know. Take care!"
+    }
+]

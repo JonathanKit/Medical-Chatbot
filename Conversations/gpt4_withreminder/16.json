@@ -1,0 +1,38 @@
+[
+    {
+        "input": "i have increaes thirst and urination",
+        "output": "I'm sorry to hear that. How long have you been experiencing these symptoms of increased thirst and urination?"
+    },
+    {
+        "input": "since a week",
+        "output": "You are tracking a symptom. I will ask you questions about your symptom and based on your answers I am creating a summary. To save the summary to your record, which will be seen by your doctor, you need to text me CONFIRM in capital letters. You can text me CONFIRM at any moment while I am asking you questions about your symptom. To cancel and dismiss the conversation text me with CANCEL.\n\ncurrent summary:  The patient has been experiencing increased thirst and urination for one week.\n\nI see. Have you noticed any changes in your appetite or weight during this time?"
+    },
+    {
+        "input": "no",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient has been experiencing increased thirst and urination for one week, with no changes in appetite or weight.\n\nUnderstood. Have you been feeling more tired than usual lately?"
+    },
+    {
+        "input": "no",
+        "output": "current summary:  The patient has been experiencing increased thirst and urination for one week. There have been no changes in appetite or weight, and the patient does not report feeling more tired than usual.\n\nOkay. Have you noticed any changes in the color or clarity of your urine?"
+    },
+    {
+        "input": "no",
+        "output": "current summary:  The patient has been experiencing increased thirst and urination for one week. They have not noticed any changes in appetite, weight, or urine color/ clarity. They also deny feeling more tired than usual.\n\nUnderstood. Have you been consuming more sugary drinks or foods than usual in the past week?"
+    },
+    {
+        "input": "no",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient has been experiencing increased thirst and urination for one week. They have not noticed any changes in their appetite, weight, or energy levels. There have been no changes in the color or clarity of their urine. The patient has not been consuming more sugary drinks or foods than usual.\n\nAlright. Have you been experiencing any dry mouth or dry skin along with your increased thirst and urination?"
+    },
+    {
+        "input": "no",
+        "output": "current summary:  The patient has been experiencing increased thirst and urination for the past week. They have not noticed any changes in their appetite, weight, or energy levels. There have been no changes in the color or clarity of their urine. The patient has not been consuming more sugary drinks or foods than usual and has not experienced dry mouth or dry skin.\n\nOkay. Have there been any changes in your daily routine or stress levels recently?"
+    },
+    {
+        "input": "no",
+        "output": "current summary:  The patient has been experiencing increased thirst and urination for one week. There have been no changes in appetite, weight, fatigue, urine color or clarity, consumption of sugary foods or drinks, dry mouth or skin, or daily routine or stress levels.\n\nUnderstood. Have you been taking any new medications or supplements recently?"
+    },
+    {
+        "input": "no",
+        "output": "At any moment, type CONFIRM to save your summary to your record, or keep sharing by answering questions. If you don't CONFIRM, no information is saved! To cancel, type CANCEL.\n\ncurrent summary:  The patient has been experiencing increased thirst and urination for one week. There have been no changes in appetite, weight, fatigue, urine color or clarity, consumption of sugary foods or drinks, dry mouth or skin, daily routine, stress levels, or use of medications or supplements.\n\nI see. Have you noticed any other unusual symptoms, such as blurred vision or frequent headaches?"
+    }
+]
