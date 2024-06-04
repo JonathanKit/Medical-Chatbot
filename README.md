@@ -14,5 +14,5 @@ The results of one-turn conversations are in the [QuestionToAnswer folder](./Que
 
 ## Usability Testing
 
-The results of the usability testing are in the [Usability Tests Folder](./UsabilityTests/).
+The results of the usability testing are in the [Usability Tests Folder](./UsabilityTests/). Als questions including a scale go from one(bad rating/strongly disagree) to five (good rating/strongly agree).
 As long as Google Forms does not shut down the form it can be seen in the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSdnamcWsotRbgzTUV8dxbAXoEtoh3RufBYqx4l6Mi89R4K2yA/viewform?usp=sf_link).
